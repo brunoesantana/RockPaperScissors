@@ -1,0 +1,11 @@
+C:\git\RockPaperScissors\RockPaperScissors\RockPaperScissors.CrossCutting\obj\Debug\netcoreapp3.0\RockPaperScissors.CrossCutting.AssemblyInfoInputs.cache
+C:\git\RockPaperScissors\RockPaperScissors\RockPaperScissors.CrossCutting\obj\Debug\netcoreapp3.0\RockPaperScissors.CrossCutting.AssemblyInfo.cs
+C:\git\RockPaperScissors\RockPaperScissors\RockPaperScissors.CrossCutting\bin\Debug\netcoreapp3.0\RockPaperScissors.CrossCutting.deps.json
+C:\git\RockPaperScissors\RockPaperScissors\RockPaperScissors.CrossCutting\bin\Debug\netcoreapp3.0\RockPaperScissors.CrossCutting.dll
+C:\git\RockPaperScissors\RockPaperScissors\RockPaperScissors.CrossCutting\bin\Debug\netcoreapp3.0\RockPaperScissors.CrossCutting.pdb
+C:\git\RockPaperScissors\RockPaperScissors\RockPaperScissors.CrossCutting\bin\Debug\netcoreapp3.0\RockPaperScissors.Domain.dll
+C:\git\RockPaperScissors\RockPaperScissors\RockPaperScissors.CrossCutting\bin\Debug\netcoreapp3.0\RockPaperScissors.Domain.pdb
+C:\git\RockPaperScissors\RockPaperScissors\RockPaperScissors.CrossCutting\obj\Debug\netcoreapp3.0\RockPaperScissors.CrossCutting.csprojAssemblyReference.cache
+C:\git\RockPaperScissors\RockPaperScissors\RockPaperScissors.CrossCutting\obj\Debug\netcoreapp3.0\RockPaperScissors.CrossCutting.csproj.CopyComplete
+C:\git\RockPaperScissors\RockPaperScissors\RockPaperScissors.CrossCutting\obj\Debug\netcoreapp3.0\RockPaperScissors.CrossCutting.dll
+C:\git\RockPaperScissors\RockPaperScissors\RockPaperScissors.CrossCutting\obj\Debug\netcoreapp3.0\RockPaperScissors.CrossCutting.pdb

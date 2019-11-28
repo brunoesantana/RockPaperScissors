@@ -1,0 +1,7 @@
+C:\git\RockPaperScissors\RockPaperScissors\RockPaperScissors.Domain\obj\Debug\netcoreapp3.0\RockPaperScissors.Domain.AssemblyInfoInputs.cache
+C:\git\RockPaperScissors\RockPaperScissors\RockPaperScissors.Domain\obj\Debug\netcoreapp3.0\RockPaperScissors.Domain.AssemblyInfo.cs
+C:\git\RockPaperScissors\RockPaperScissors\RockPaperScissors.Domain\bin\Debug\netcoreapp3.0\RockPaperScissors.Domain.deps.json
+C:\git\RockPaperScissors\RockPaperScissors\RockPaperScissors.Domain\bin\Debug\netcoreapp3.0\RockPaperScissors.Domain.dll
+C:\git\RockPaperScissors\RockPaperScissors\RockPaperScissors.Domain\bin\Debug\netcoreapp3.0\RockPaperScissors.Domain.pdb
+C:\git\RockPaperScissors\RockPaperScissors\RockPaperScissors.Domain\obj\Debug\netcoreapp3.0\RockPaperScissors.Domain.dll
+C:\git\RockPaperScissors\RockPaperScissors\RockPaperScissors.Domain\obj\Debug\netcoreapp3.0\RockPaperScissors.Domain.pdb

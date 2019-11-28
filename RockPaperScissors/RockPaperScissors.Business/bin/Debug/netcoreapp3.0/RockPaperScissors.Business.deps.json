@@ -1,0 +1,50 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v3.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v3.0": {
+      "RockPaperScissors.Business/1.0.0": {
+        "dependencies": {
+          "RockPaperScissors.CrossCutting": "1.0.0",
+          "RockPaperScissors.Domain": "1.0.0"
+        },
+        "runtime": {
+          "RockPaperScissors.Business.dll": {}
+        }
+      },
+      "RockPaperScissors.CrossCutting/1.0.0": {
+        "dependencies": {
+          "RockPaperScissors.Domain": "1.0.0"
+        },
+        "runtime": {
+          "RockPaperScissors.CrossCutting.dll": {}
+        }
+      },
+      "RockPaperScissors.Domain/1.0.0": {
+        "runtime": {
+          "RockPaperScissors.Domain.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "RockPaperScissors.Business/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "RockPaperScissors.CrossCutting/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "RockPaperScissors.Domain/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}

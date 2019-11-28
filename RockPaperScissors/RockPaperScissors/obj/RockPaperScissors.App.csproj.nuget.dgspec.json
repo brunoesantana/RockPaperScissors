@@ -1,0 +1,246 @@
+{
+  "format": 1,
+  "restore": {
+    "C:\\git\\RockPaperScissors\\RockPaperScissors\\RockPaperScissors\\RockPaperScissors.App.csproj": {}
+  },
+  "projects": {
+    "C:\\git\\RockPaperScissors\\RockPaperScissors\\RockPaperScissors.Business\\RockPaperScissors.Business.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\git\\RockPaperScissors\\RockPaperScissors\\RockPaperScissors.Business\\RockPaperScissors.Business.csproj",
+        "projectName": "RockPaperScissors.Business",
+        "projectPath": "C:\\git\\RockPaperScissors\\RockPaperScissors\\RockPaperScissors.Business\\RockPaperScissors.Business.csproj",
+        "packagesPath": "C:\\Users\\ASUS\\.nuget\\packages\\",
+        "outputPath": "C:\\git\\RockPaperScissors\\RockPaperScissors\\RockPaperScissors.Business\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\ASUS\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp3.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://www.nuget.org/api/v2/curated-feeds/microsoftdotnet/": {}
+        },
+        "frameworks": {
+          "netcoreapp3.0": {
+            "projectReferences": {
+              "C:\\git\\RockPaperScissors\\RockPaperScissors\\RockPaperScissors.CrossCutting\\RockPaperScissors.CrossCutting.csproj": {
+                "projectPath": "C:\\git\\RockPaperScissors\\RockPaperScissors\\RockPaperScissors.CrossCutting\\RockPaperScissors.CrossCutting.csproj"
+              },
+              "C:\\git\\RockPaperScissors\\RockPaperScissors\\RockPaperScissors.Domain\\RockPaperScissors.Domain.csproj": {
+                "projectPath": "C:\\git\\RockPaperScissors\\RockPaperScissors\\RockPaperScissors.Domain\\RockPaperScissors.Domain.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp3.0": {
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.0.100\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\git\\RockPaperScissors\\RockPaperScissors\\RockPaperScissors.CrossCutting\\RockPaperScissors.CrossCutting.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\git\\RockPaperScissors\\RockPaperScissors\\RockPaperScissors.CrossCutting\\RockPaperScissors.CrossCutting.csproj",
+        "projectName": "RockPaperScissors.CrossCutting",
+        "projectPath": "C:\\git\\RockPaperScissors\\RockPaperScissors\\RockPaperScissors.CrossCutting\\RockPaperScissors.CrossCutting.csproj",
+        "packagesPath": "C:\\Users\\ASUS\\.nuget\\packages\\",
+        "outputPath": "C:\\git\\RockPaperScissors\\RockPaperScissors\\RockPaperScissors.CrossCutting\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\ASUS\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp3.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://www.nuget.org/api/v2/curated-feeds/microsoftdotnet/": {}
+        },
+        "frameworks": {
+          "netcoreapp3.0": {
+            "projectReferences": {
+              "C:\\git\\RockPaperScissors\\RockPaperScissors\\RockPaperScissors.Domain\\RockPaperScissors.Domain.csproj": {
+                "projectPath": "C:\\git\\RockPaperScissors\\RockPaperScissors\\RockPaperScissors.Domain\\RockPaperScissors.Domain.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp3.0": {
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.0.100\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\git\\RockPaperScissors\\RockPaperScissors\\RockPaperScissors.Domain\\RockPaperScissors.Domain.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\git\\RockPaperScissors\\RockPaperScissors\\RockPaperScissors.Domain\\RockPaperScissors.Domain.csproj",
+        "projectName": "RockPaperScissors.Domain",
+        "projectPath": "C:\\git\\RockPaperScissors\\RockPaperScissors\\RockPaperScissors.Domain\\RockPaperScissors.Domain.csproj",
+        "packagesPath": "C:\\Users\\ASUS\\.nuget\\packages\\",
+        "outputPath": "C:\\git\\RockPaperScissors\\RockPaperScissors\\RockPaperScissors.Domain\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\ASUS\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp3.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://www.nuget.org/api/v2/curated-feeds/microsoftdotnet/": {}
+        },
+        "frameworks": {
+          "netcoreapp3.0": {
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp3.0": {
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.0.100\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\git\\RockPaperScissors\\RockPaperScissors\\RockPaperScissors\\RockPaperScissors.App.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\git\\RockPaperScissors\\RockPaperScissors\\RockPaperScissors\\RockPaperScissors.App.csproj",
+        "projectName": "RockPaperScissors.App",
+        "projectPath": "C:\\git\\RockPaperScissors\\RockPaperScissors\\RockPaperScissors\\RockPaperScissors.App.csproj",
+        "packagesPath": "C:\\Users\\ASUS\\.nuget\\packages\\",
+        "outputPath": "C:\\git\\RockPaperScissors\\RockPaperScissors\\RockPaperScissors\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\ASUS\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp3.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://www.nuget.org/api/v2/curated-feeds/microsoftdotnet/": {}
+        },
+        "frameworks": {
+          "netcoreapp3.0": {
+            "projectReferences": {
+              "C:\\git\\RockPaperScissors\\RockPaperScissors\\RockPaperScissors.Business\\RockPaperScissors.Business.csproj": {
+                "projectPath": "C:\\git\\RockPaperScissors\\RockPaperScissors\\RockPaperScissors.Business\\RockPaperScissors.Business.csproj"
+              },
+              "C:\\git\\RockPaperScissors\\RockPaperScissors\\RockPaperScissors.CrossCutting\\RockPaperScissors.CrossCutting.csproj": {
+                "projectPath": "C:\\git\\RockPaperScissors\\RockPaperScissors\\RockPaperScissors.CrossCutting\\RockPaperScissors.CrossCutting.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp3.0": {
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.0.100\\RuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}

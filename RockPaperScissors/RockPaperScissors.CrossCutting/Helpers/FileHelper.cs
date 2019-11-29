@@ -1,4 +1,5 @@
 ﻿using RockPaperScissors.CrossCutting.Exceptions;
+using System;
 using System.Collections.Generic;
 using System.IO;
 using System.Linq;
@@ -10,25 +11,36 @@ namespace RockPaperScissors.CrossCutting.Helpers
     {
         public static IList<string> ReadFile(string filePath)
         {
-            if (!File.Exists(filePath))
-                throw new FileException("File not found");
-
-            var players = new List<string>();
-
-            using (var reader = new StreamReader(filePath))
+            try
             {
-                string line;
-                while ((line = reader.ReadLine()) != null)
+                if (!File.Exists(filePath))
+                    throw new FileException("File not found");
+
+                var players = new List<string>();
+
+                using (var reader = new StreamReader(filePath))
                 {
-                    if (!string.IsNullOrWhiteSpace(line))
-                        players.Add(line);
+                    string line;
+                    while ((line = reader.ReadLine()) != null)
+                    {
+                        if (!string.IsNullOrWhiteSpace(line))
+                            players.Add(line);
+                    }
                 }
+
+                if (!players.Any())
+                    throw new FileException("Empty file");
+
+                return players;
             }
-
-            if (!players.Any())
-                throw new FileException("Empty file");
-
-            return players;
+            catch (FileException ex)
+            {
+                throw new FileException(ex.Message);
+            }
+            catch (Exception e)
+            {
+                throw new Exception(e.Message);
+            }
         }
 
         public static string GetFilePath(string fileName)

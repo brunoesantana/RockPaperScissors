@@ -1,6 +1,8 @@
-﻿using RockPaperScissors.CrossCutting.Helpers;
+﻿using RockPaperScissors.CrossCutting.Exceptions;
+using RockPaperScissors.CrossCutting.Helpers;
 using RockPaperScissors.Domain.Entity;
 using RockPaperScissors.Domain.Enum;
+using System;
 using System.Collections.Generic;
 using System.Linq;
 
@@ -10,15 +12,26 @@ namespace RockPaperScissors.CrossCutting.Builder
     {
         public IList<Player> Build(IList<string> stringPlayersList)
         {
-            var playerList = new List<Player>();
-
-            stringPlayersList.ToList().ForEach(f =>
+            try
             {
-                var player = f.Split(",");
-                playerList.Add(new Player(player.First(), EnumHelper.GetEnumFromDescription<Movement>(player.Last().ToUpper())));
-            });
+                var playerList = new List<Player>();
 
-            return playerList;
+                stringPlayersList.ToList().ForEach(f =>
+                {
+                    var player = f.Split(",");
+                    playerList.Add(new Player(player.First(), EnumHelper.GetEnumFromDescription<Movement>(player.Last().ToUpper())));
+                });
+
+                return playerList;
+            }
+            catch (MovementException ex)
+            {
+                throw new MovementException(ex.Message);
+            }
+            catch (Exception e)
+            {
+                throw new Exception(e.Message);
+            }
         }
     }
 }

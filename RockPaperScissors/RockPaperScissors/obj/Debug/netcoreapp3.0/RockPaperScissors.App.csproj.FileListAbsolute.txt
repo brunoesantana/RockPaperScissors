@@ -1,3 +1,4 @@
+C:\git\RockPaperScissors\RockPaperScissors\RockPaperScissors\obj\Debug\netcoreapp3.0\RockPaperScissors.App.csprojAssemblyReference.cache
 C:\git\RockPaperScissors\RockPaperScissors\RockPaperScissors\obj\Debug\netcoreapp3.0\RockPaperScissors.App.AssemblyInfoInputs.cache
 C:\git\RockPaperScissors\RockPaperScissors\RockPaperScissors\obj\Debug\netcoreapp3.0\RockPaperScissors.App.AssemblyInfo.cs
 C:\git\RockPaperScissors\RockPaperScissors\RockPaperScissors\bin\Debug\netcoreapp3.0\RockPaperScissors.App.exe
@@ -12,7 +13,6 @@ C:\git\RockPaperScissors\RockPaperScissors\RockPaperScissors\bin\Debug\netcoreap
 C:\git\RockPaperScissors\RockPaperScissors\RockPaperScissors\bin\Debug\netcoreapp3.0\RockPaperScissors.Business.pdb
 C:\git\RockPaperScissors\RockPaperScissors\RockPaperScissors\bin\Debug\netcoreapp3.0\RockPaperScissors.CrossCutting.pdb
 C:\git\RockPaperScissors\RockPaperScissors\RockPaperScissors\bin\Debug\netcoreapp3.0\RockPaperScissors.Domain.pdb
-C:\git\RockPaperScissors\RockPaperScissors\RockPaperScissors\obj\Debug\netcoreapp3.0\RockPaperScissors.App.csprojAssemblyReference.cache
 C:\git\RockPaperScissors\RockPaperScissors\RockPaperScissors\obj\Debug\netcoreapp3.0\RockPaperScissors.App.csproj.CopyComplete
 C:\git\RockPaperScissors\RockPaperScissors\RockPaperScissors\obj\Debug\netcoreapp3.0\RockPaperScissors.App.dll
 C:\git\RockPaperScissors\RockPaperScissors\RockPaperScissors\obj\Debug\netcoreapp3.0\RockPaperScissors.App.pdb

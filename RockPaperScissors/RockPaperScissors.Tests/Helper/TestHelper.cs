@@ -31,5 +31,25 @@ namespace RockPaperScissors.Tests.Helper
         {
             return new Player(name, movement);
         }
+
+        public static IList<string> BuildTournamentStringPlayerList()
+        {
+            return new List<string>
+            {
+                "Armando,P",
+                "Dave,S",
+                "Richard,R",
+                "Michael,S",
+                "Allen,S",
+                "Omer,P",
+                "David E.,R",
+                "Richard X.,P"
+            };
+        }
+
+        public static IList<string> BuildSimpleStringPlayerList()
+        {
+            return new List<string> { "Armando,P", "Dave,S" };
+        }
     }
 }

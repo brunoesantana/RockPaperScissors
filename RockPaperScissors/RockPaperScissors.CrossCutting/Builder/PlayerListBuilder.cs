@@ -1,32 +1,24 @@
-﻿using RockPaperScissors.CrossCutting.DTO;
+﻿using RockPaperScissors.CrossCutting.Helpers;
+using RockPaperScissors.Domain.Entity;
+using RockPaperScissors.Domain.Enum;
 using System.Collections.Generic;
+using System.Linq;
 
 namespace RockPaperScissors.CrossCutting.Builder
 {
     public class PlayerListBuilder
     {
-        public IList<PlayerDTO> BuildTournament()
+        public IList<Player> Build(IList<string> stringPlayersList)
         {
-            return new List<PlayerDTO>
-            {
-                new PlayerDTO {Name = "Armando", Movement = "P" },
-                new PlayerDTO {Name = "Dave", Movement = "S" },
-                new PlayerDTO {Name = "Richard", Movement = "R" },
-                new PlayerDTO {Name = "Michael", Movement = "S" },
-                new PlayerDTO {Name = "Allen", Movement = "S" },
-                new PlayerDTO {Name = "Omer", Movement = "P" },
-                new PlayerDTO {Name = "David E.", Movement = "R" },
-                new PlayerDTO {Name = "Richard X.", Movement = "P" }
-            };
-        }
+            var playerList = new List<Player>();
 
-        public IList<PlayerDTO> BuildSingleConfrontation()
-        {
-            return new List<PlayerDTO>
+            stringPlayersList.ToList().ForEach(f =>
             {
-                new PlayerDTO {Name = "Armando", Movement = "P" },
-                new PlayerDTO {Name = "Dave", Movement = "S" },
-            };
+                var player = f.Split(",");
+                playerList.Add(new Player(player.First(), EnumHelper.GetEnumFromDescription<Movement>(player.Last().ToUpper())));
+            });
+
+            return playerList;
         }
     }
 }

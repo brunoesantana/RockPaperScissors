@@ -5,13 +5,13 @@ VisualStudioVersion = 16.0.29324.140
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "RockPaperScissors.App", "RockPaperScissors\RockPaperScissors.App.csproj", "{70088858-4EE4-4C1A-A542-D94C488360E3}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RockPaperScissors.Domain", "RockPaperScissors.Domain\RockPaperScissors.Domain.csproj", "{64D2CE8A-AEDA-4447-9AD6-340019E7E9C9}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "RockPaperScissors.Domain", "RockPaperScissors.Domain\RockPaperScissors.Domain.csproj", "{64D2CE8A-AEDA-4447-9AD6-340019E7E9C9}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RockPaperScissors.Business", "RockPaperScissors.Business\RockPaperScissors.Business.csproj", "{8EB2B387-4B44-46B5-BF16-6059F02A2B69}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "RockPaperScissors.Business", "RockPaperScissors.Business\RockPaperScissors.Business.csproj", "{8EB2B387-4B44-46B5-BF16-6059F02A2B69}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RockPaperScissors.CrossCutting", "RockPaperScissors.CrossCutting\RockPaperScissors.CrossCutting.csproj", "{35854342-D3A1-444A-A92B-CACA44E3053D}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "RockPaperScissors.CrossCutting", "RockPaperScissors.CrossCutting\RockPaperScissors.CrossCutting.csproj", "{35854342-D3A1-444A-A92B-CACA44E3053D}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RockPaperScissors.Tests", "RockPaperScissors.Tests\RockPaperScissors.Tests.csproj", "{299E57C2-3DD6-4364-8B11-94E0F1FD5ACC}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "RockPaperScissors.Tests", "RockPaperScissors.Tests\RockPaperScissors.Tests.csproj", "{299E57C2-3DD6-4364-8B11-94E0F1FD5ACC}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution

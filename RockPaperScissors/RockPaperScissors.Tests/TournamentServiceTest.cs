@@ -2,7 +2,7 @@
 using RockPaperScissors.Business.Business;
 using RockPaperScissors.Business.Interface;
 using RockPaperScissors.CrossCutting.Builder;
-using RockPaperScissors.CrossCutting.Mapper;
+using RockPaperScissors.Tests.Helper;
 
 namespace RockPaperScissors.Tests
 {
@@ -24,9 +24,7 @@ namespace RockPaperScissors.Tests
         [Test]
         public void Deve_retornar_vencedor_do_torneio_corretamente()
         {
-            var playersDTO = _playerListBuilder.BuildTournament();
-            var players = MapperDto2Player.Mapper(playersDTO);
-
+            var players = _playerListBuilder.Build(TestHelper.BuildTournamentStringPlayerList());
             var winner = _tournamentService.Start(_confrontationService.PrepareClashes(players));
 
             Assert.AreEqual(winner, "Richard");
@@ -35,9 +33,7 @@ namespace RockPaperScissors.Tests
         [Test]
         public void Deve_retornar_vencedor_de_confronto_simples()
         {
-            var playersDTO = _playerListBuilder.BuildSingleConfrontation();
-            var players = MapperDto2Player.Mapper(playersDTO);
-
+            var players = _playerListBuilder.Build(TestHelper.BuildSimpleStringPlayerList());
             var winner = _tournamentService.Start(_confrontationService.PrepareClashes(players));
 
             Assert.AreEqual(winner, "Dave");

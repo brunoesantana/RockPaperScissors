@@ -1,5 +1,3 @@
-C:\git\RockPaperScissors\RockPaperScissors\RockPaperScissors.Business\obj\Debug\netcoreapp3.0\RockPaperScissors.Business.AssemblyInfoInputs.cache
-C:\git\RockPaperScissors\RockPaperScissors\RockPaperScissors.Business\obj\Debug\netcoreapp3.0\RockPaperScissors.Business.AssemblyInfo.cs
 C:\git\RockPaperScissors\RockPaperScissors\RockPaperScissors.Business\bin\Debug\netcoreapp3.0\RockPaperScissors.Business.deps.json
 C:\git\RockPaperScissors\RockPaperScissors\RockPaperScissors.Business\bin\Debug\netcoreapp3.0\RockPaperScissors.Business.dll
 C:\git\RockPaperScissors\RockPaperScissors\RockPaperScissors.Business\bin\Debug\netcoreapp3.0\RockPaperScissors.Business.pdb
@@ -8,6 +6,8 @@ C:\git\RockPaperScissors\RockPaperScissors\RockPaperScissors.Business\bin\Debug\
 C:\git\RockPaperScissors\RockPaperScissors\RockPaperScissors.Business\bin\Debug\netcoreapp3.0\RockPaperScissors.CrossCutting.pdb
 C:\git\RockPaperScissors\RockPaperScissors\RockPaperScissors.Business\bin\Debug\netcoreapp3.0\RockPaperScissors.Domain.pdb
 C:\git\RockPaperScissors\RockPaperScissors\RockPaperScissors.Business\obj\Debug\netcoreapp3.0\RockPaperScissors.Business.csprojAssemblyReference.cache
+C:\git\RockPaperScissors\RockPaperScissors\RockPaperScissors.Business\obj\Debug\netcoreapp3.0\RockPaperScissors.Business.AssemblyInfoInputs.cache
+C:\git\RockPaperScissors\RockPaperScissors\RockPaperScissors.Business\obj\Debug\netcoreapp3.0\RockPaperScissors.Business.AssemblyInfo.cs
 C:\git\RockPaperScissors\RockPaperScissors\RockPaperScissors.Business\obj\Debug\netcoreapp3.0\RockPaperScissors.Business.csproj.CopyComplete
 C:\git\RockPaperScissors\RockPaperScissors\RockPaperScissors.Business\obj\Debug\netcoreapp3.0\RockPaperScissors.Business.dll
 C:\git\RockPaperScissors\RockPaperScissors\RockPaperScissors.Business\obj\Debug\netcoreapp3.0\RockPaperScissors.Business.pdb
